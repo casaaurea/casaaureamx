@@ -1,0 +1,254 @@
+/* Your custom styles */
+
+
+html, body, header, header {
+  margin: 0 padding:0;
+}
+
+main {
+  background-color: white;
+}
+
+#intro-section {
+  height: calc(100vh - 90px);
+}
+
+@media (max-width: 740px) {
+
+  #intro-section {
+    height: calc(100vh - 150px);
+  }
+}
+
+#intro {
+  height: calc(100vh - 200px);
+}
+
+#intro {
+  background: url("https://media3.giphy.com/media/pYgb9GQrEoDBe/giphy.gif")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#intro2 {
+  height: 85vh;
+}
+
+#intro2 {
+  background: url('images/cocina martha.png')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#intro3 {
+  height: 50vh;
+}
+
+
+
+.top-nav-collapse {
+  background-color: #3e4551;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(62, 69, 81, 0.55) !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(62, 69, 81, 0.55) !important;
+  }
+}
+
+#botonprincipal {
+  background: linear-gradient(44.64deg, rgba(255, 0, 85, 0.5) -16.8%, rgba(153, 68, 204, 0.5) 120.22%);
+  border-radius: 360px;
+}
+
+
+
+#botonsecundario {
+  background: #00B8D4;
+  border-radius: 360px;
+  color: white
+}
+
+.mt-6 {
+    margin-top: : 5rem;
+}
+
+.display-aurea {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.subtext-header-aurea {
+  font-family: 'Amiko', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtext-header-aurea2 {
+  font-family: 'Amiko', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.aureamenu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media (min-width: 576px) {
+  .display-aurea {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .subtext-header-aurea {
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) {
+  .display-aurea {
+    font-size: 32px;
+    line-height: 37px
+  }
+  .subtext-header-aurea {
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #intro {
+    height: calc(100vh - 118px);
+  }
+}
+
+@media (min-width: 922px) {
+  .display-aurea {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 43px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .subtext-header-aurea {
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 23px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p#paurea {
+    line-height: 30px;
+    font-size: 20px
+  }
+}
+
+@media (min-width: 1016px) {
+  .display-aurea {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 48px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .subtext-header-aurea {
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 23px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) {
+  #intro {
+    height: calc(100vh - 118px);
+  }
+  #fondomitad {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+  }
+}
+
+.border2 {
+  border: solid 1px border-color background-color: #FFFFFF;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.fondoimagen {
+  height: 300px;
+}
+
+.card-img-right {
+  height: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  @include border-right-radius($card-inner-border-radius);
+}
+
+.card-img-left {
+  height: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  @include border-left-radius($card-inner-border-radius);
+}
+
+.card-horizontal {
+  flex-direction: row;
+}
+
+.tabs-wrapper {
+
+
+  *display: inline;
+  /* ie7 fix */
+  zoom: 1;
+}
+
+.tabs-wrapper {
+    text-align:center;
+    background-color: red;
+}
