@@ -81,9 +81,14 @@ main {
 .mt-6 {
     margin-top: : 5rem;
 }
-
+@font-face {
+  font-family: 'Roboto';
+  font-display: auto;
+  src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
+}
 .display-aurea {
   font-family: 'Roboto', sans-serif;
+  font-display: auto;
   font-style: normal;
   font-weight: normal;
   line-height: 32px;
