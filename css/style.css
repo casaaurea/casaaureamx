@@ -117,7 +117,7 @@ main {
 }
 
 .aureamenu {
-  font-family: Roboto, sans-serif;;
+  font-family: 'Roboto', sans-serif;;
   font-style: normal;
   font-weight: normal;
   line-height: 16px;
@@ -127,7 +127,8 @@ main {
 
 @media (min-width: 576px) {
   .display-aurea {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    font-display: auto;
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
@@ -135,7 +136,7 @@ main {
     text-align: center;
   }
   .subtext-header-aurea {
-    font-family: Amiko;
+    font-family: 'Amiko', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -147,11 +148,13 @@ main {
 
 @media (min-width: 768px) {
   .display-aurea {
+    font-family: 'Roboto', sans-serif;
+    font-display: auto;
     font-size: 32px;
     line-height: 37px
   }
   .subtext-header-aurea {
-    font-family: Amiko;
+    font-family: 'Amiko', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 20px;
@@ -166,7 +169,8 @@ main {
 
 @media (min-width: 922px) {
   .display-aurea {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    font-display: auto;
     font-style: normal;
     font-weight: normal;
     line-height: 43px;
@@ -174,7 +178,7 @@ main {
     text-align: center;
   }
   .subtext-header-aurea {
-    font-family: Amiko;
+    font-family: 'Amiko', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 23px;
@@ -190,7 +194,8 @@ main {
 
 @media (min-width: 1016px) {
   .display-aurea {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    font-display: auto;
     font-style: normal;
     font-weight: normal;
     line-height: 48px;
@@ -198,7 +203,7 @@ main {
     text-align: center;
   }
   .subtext-header-aurea {
-    font-family: Amiko;
+    font-family: 'Amiko', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 23px;
