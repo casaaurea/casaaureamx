@@ -16,7 +16,7 @@ main {
 @media (max-width: 740px) {
 
   #intro-section {
-    height: calc(100vh - 150px);
+    height: 50vh;
   }
 }
 
