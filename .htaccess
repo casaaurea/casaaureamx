@@ -1,0 +1,39 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 400 /Opps.html
+ErrorDocument 401 /Opps.html
+ErrorDocument 402 /Opps.html
+ErrorDocument 403 /Opps.html
+ErrorDocument 404 /Opps.html
+ErrorDocument 405 /Opps.html
+ErrorDocument 406 /Opps.html
+ErrorDocument 407 /Opps.html
+ErrorDocument 408 /Opps.html
+ErrorDocument 409 /Opps.html
+ErrorDocument 410 /Opps.html
+ErrorDocument 411 /Opps.html
+ErrorDocument 412 /Opps.html
+ErrorDocument 413 /Opps.html
+ErrorDocument 414 /Opps.html
+ErrorDocument 500 /Opps.html
+ErrorDocument 501 /Opps.html
+ErrorDocument 502 /Opps.html
+ErrorDocument 503 /Opps.html
+ErrorDocument 504 /Opps.html
+ErrorDocument 505 /Opps.html
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(casaaurea\.mx)(:80)? [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*) http://www.casaaurea.mx/$1 [R=301,L]
+order deny,allow
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
