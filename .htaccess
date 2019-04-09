@@ -28,7 +28,7 @@ RewriteCond %{HTTP_HOST} ^(casaaurea\.mx)(:80)? [NC]
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*) http://www.casaaurea.mx/$1 [R=301,L]
+RewriteRule ^(.*) https://www.casaaurea.mx/$1 [R=301,L]
 order deny,allow
 
 RewriteEngine On
