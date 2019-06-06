@@ -92,8 +92,8 @@ main {
   font-style: normal;
   font-weight: normal;
   line-height: 32px;
-  font-size: 24px;
-  text-align: center;
+  font-size: 32px;
+  text-align: left;
 }
 
 .subtext-header-aurea {
@@ -102,7 +102,7 @@ main {
   font-weight: normal;
   line-height: 15px;
   font-size: 13px;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -138,7 +138,7 @@ main {
     font-weight: normal;
     line-height: 32px;
     font-size: 28px;
-    text-align: center;
+    text-align: left;
   }
   .subtext-header-aurea {
     font-family: 'Amiko', sans-serif;
@@ -146,7 +146,7 @@ main {
     font-weight: normal;
     line-height: 16px;
     font-size: 13px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
   }
 }
@@ -169,7 +169,7 @@ main {
     font-weight: normal;
     line-height: 20px;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
   }
   #intro {
@@ -190,7 +190,7 @@ main {
     font-weight: normal;
     line-height: 43px;
     font-size: 40px;
-    text-align: center;
+    text-align: left;
   }
   .subtext-header-aurea {
     font-family: 'Amiko', sans-serif;
@@ -198,7 +198,7 @@ main {
     font-weight: normal;
     line-height: 23px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
   }
   p#paurea {
@@ -218,9 +218,9 @@ main {
     font-display: auto;
     font-style: normal;
     font-weight: normal;
-    line-height: 48px;
-    font-size: 45px;
-    text-align: center;
+    line-height: 62px;
+    font-size: 60px;
+    text-align: left;
   }
   .subtext-header-aurea {
     font-family: 'Amiko', sans-serif;
@@ -228,7 +228,7 @@ main {
     font-weight: normal;
     line-height: 23px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
   }
 }
