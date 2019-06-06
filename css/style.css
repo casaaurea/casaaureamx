@@ -220,7 +220,7 @@ main {
     font-weight: normal;
     line-height: 62px;
     font-size: 60px;
-    text-align: left;
+  
   }
   .subtext-header-aurea {
     font-family: 'Amiko', sans-serif;
@@ -228,10 +228,12 @@ main {
     font-weight: normal;
     line-height: 23px;
     font-size: 20px;
-    text-align: left;
+
     text-transform: uppercase;
   }
 }
+
+
 
 @media (min-width: 768px) {
   #intro {
