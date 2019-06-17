@@ -222,6 +222,13 @@ main {
     font-display: auto;
     src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
   }
+  .h1blog {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    font-size: 64px;
+    text-align: left;
   .display-aurea {
     font-family: 'Roboto', sans-serif;
     font-display: auto;
