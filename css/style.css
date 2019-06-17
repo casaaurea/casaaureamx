@@ -89,9 +89,8 @@ main {
 
 .h1blog {
   font-family: 'Playfair Display', serif;
-
   font-style: normal;
-  font-weight: regular;
+  font-weight: 400;
   line-height: 62px;
   font-size: 48px;
   text-align: left;
