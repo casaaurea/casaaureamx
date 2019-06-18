@@ -58,6 +58,9 @@ main {
   .navbar:not(.top-nav-collapse) {
     background: rgba(62, 69, 81, 0.55) !important;
   }
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(62, 69, 81, 0.55) !important;
+  }
 }
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
