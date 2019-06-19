@@ -2,10 +2,12 @@
 /tania      /proyectos/tania/
 /gloria-amorada.html    /proyectos/gloria/
 /gloria-amorada     /proyectos/gloria/
+/proyectos/gloria-amorada/    /proyectos/gloria/
 /denisse.html    /proyectos/denisse/denisse/
 /denisse       /proyectos/denisse/denisse/
 /proyecto-costa-rica.html     /proyectos/proyecto-costa-rica/
 /proyecto-costa-rica       /proyectos/proyecto-costa-rica/
+/proyecto/costa-rica/     /proyectos/proyecto-costa-rica/
 /lumeria.html                    /proyectos/lumeria/
 /lumeria                    /proyectos/lumeria/
 /isabel.html                      /proyectos/isabel/
@@ -18,5 +20,6 @@
 /proyectos/denisse/denisse/   /proyectos/denisse/
 /proyectos/gloria/gloria-amorada/     /proyectos/gloria/
 /proyectos/lumeria/persianas-culiacan   /persianas-culiacan
+/persianas    /persianas-culiacan
 =======
 >>>>>>> parent of f4ff205... se agrego el footer con links
