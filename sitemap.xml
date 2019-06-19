@@ -1,66 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>http://www.casaaurea.mx/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/proyectos</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <url>
-      <loc>http://www.casaaurea.mx/cocinas-integrales-en-culiacan</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.9</priority>
-    </url>
-    <url>
-      <loc>http://www.casaaurea.mx/closets-de-carpinteria-culiacan</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.9</priority>
-    </url>
-    <url>
-      <loc>http://www.casaaurea.mx/vestidores-culiacan</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.9</priority>
-    </url>
-    <loc>http://www.casaaurea.mx/mueble-de-tv</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/bar-en-casa</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/diseno-de-interiores-en-culiacan</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/estudios-a-la-media</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/banos-a-la-medida-culiacan</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/papel-tapiz-culiacan</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.casaaurea.mx/persianas-culiacan</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+ <!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com
+-->
+<url>
+<loc>https://casaaurea.mx/</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>
+https://casaaurea.mx/cocinas-integrales-en-culiacan
+</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.90</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/banos-a-la-medida-culiacan</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/bar-en-casa</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://casaaurea.mx/closets-de-carpinteria-culiacan
+</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/estudios-a-la-media</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/mueble-de-tv</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/vestidores-culiacan</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/papel-tapiz-culiacan</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/persianas-culiacan</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://casaaurea.mx/diseno-de-interiores-en-culiacan
+</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://casaaurea.mx/proyectos/</loc>
+<lastmod>2019-06-19T06:05:32+00:00</lastmod>
+<priority>0.90</priority>
+</url>
 </urlset>
-<!--<guid value="04ce0a3b-ba67-4c43-9ac6-f0b28fab38a8" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
