@@ -58,7 +58,7 @@
 
 }
 </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109300053-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -68,12 +68,14 @@ gtag('js', new Date());
 gtag('config', 'UA-109300053-1', { 'optimize_id': 'GTM-T5NQ52B'});
 </script>
 <style>.async-hide { opacity: 0 !important} </style>
-<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+<script>
+(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
 })(window,document.documentElement,'async-hide','dataLayer',4000,
-{'GTM-T5NQ52B':true});</script>
-  <!-- Facebook Pixel Code -->
+{'GTM-T5NQ52B':true});
+</script>
+  <!-- Facebook Pixel Code 
   <script>
     ! function(f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -847,7 +849,56 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <script type="text/javascript" src="js/bootstrap.min.js"></script>
           <!-- MDB core JavaScript -->
           <script type="text/javascript" src="js/mdb.min.js"></script>
+          <script type="text/javascript">
+            function __loadTawkTo() {
+              if (! window.MarketingToolsLoaded) {
+                setTimeout(function () {
+                  //FACEBOOK PIXEL///
+                  ! function(f, b, e, v, n, t, s) {
+                    if (f.fbq) return;
+                    n = f.fbq = function() {
+                      n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!f._fbq) f._fbq = n;
+                    n.push = n;
+                    n.loaded = !0;
+                    n.version = '2.0';
+                    n.queue = [];
+                    t = b.createElement(e);
+                    t.async = !0;
+                    t.src = v;
+                    s = b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s)
+                  }(window, document, 'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                  fbq('init', '171951266788320');
+                  fbq('track', 'PageView');
+                  //end FACEBOOK PIXEL///
+                  //GTM//
+                  async src="https://www.googletagmanager.com/gtag/js?id=UA-109300053-1">
 
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+                   gtag('config', 'UA-109300053-1', { 'optimize_id': 'GTM-T5NQ52B'});
+                  
+                  <style>.async-hide { opacity: 0 !important} </style>
+
+                  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+                  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+                  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+                  })(window,document.documentElement,'async-hide','dataLayer',4000,
+                  {'GTM-T5NQ52B':true});
+
+                //GTM/
+              }
+              window.MarketingToolsLoaded=true
+            }
+        
+            window.addEventListener('scroll', __loadTawkTo);
+          </script>
 
           </body>
 </html>
