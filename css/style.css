@@ -82,13 +82,9 @@ main {
 }
 
 .mt-6 {
-    margin-top: : 5rem;
+    margin-top: 5rem;
 }
-@font-face {
-  font-family: 'Roboto';
-  font-display: swap;
-  src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
-}
+
 
 .h1blog {
   font-family: 'Merriweather', serif;
@@ -138,11 +134,7 @@ main {
 }
 
 @media (min-width: 576px) {
-  @font-face {
-    font-family: 'Roboto';
-    font-display: swap;
-    src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
-  }
+  
   .display-aurea {
     font-family: 'Roboto', sans-serif;
     font-display: auto;
@@ -164,11 +156,7 @@ main {
 }
 
 @media (min-width: 768px) {
-  @font-face {
-    font-family: 'Roboto';
-    font-display: auto;
-    src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
-  }
+ 
   .display-aurea {
     font-family: 'Roboto', sans-serif;
     font-display: auto;
@@ -190,11 +178,7 @@ main {
 }
 
 @media (min-width: 922px) {
-  @font-face {
-    font-family: 'Roboto';
-    font-display: auto;
-    src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
-  }
+ 
   .display-aurea {
     font-family: 'Roboto', sans-serif;
     font-display: auto;
@@ -220,11 +204,7 @@ main {
 }
 
 @media (min-width: 1016px) {
-  @font-face {
-    font-family: 'Roboto';
-    font-display: auto;
-    src: local('Roboto'), url(font/roboto/Roboto-Regular.woff) format('woff');
-  }
+  
   .h1blog {
     font-family: 'Merriweather', serif;
     font-style: normal;
