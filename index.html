@@ -33,6 +33,9 @@
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css"  media="screen" href="css/icons.css">
   <link rel="shortcut icon" type="image/x-icon" href="/images/casa aurea.png">
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=171951266788320&ev=PageView&noscript=1"
+  /></noscript>
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -58,6 +61,7 @@
 
 }
 </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109300053-1"></script>
 <script>
@@ -106,6 +110,10 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 </head>
 <!-- Main navigation -->
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXG8KTL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <!-- Whatsapp Float butoom-->
   <a href="https://api.whatsapp.com/send?phone=526673081928&text=Hola!" class="float" target="_blank">
     <i class="fa icon-whatsapp my-float"></i>
@@ -849,41 +857,65 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <script type="text/javascript" src="js/bootstrap.min.js"></script>
           <!-- MDB core JavaScript -->
           <script type="text/javascript" src="js/mdb.min.js"></script>
+         
+
           <script type="text/javascript">
-            function __loadTawkTo() {
-              if (! window.MarketingToolsLoaded) {
-                setTimeout(function () {
-                  //FACEBOOK PIXEL///
-                  ! function(f, b, e, v, n, t, s) {
-                    if (f.fbq) return;
-                    n = f.fbq = function() {
-                      n.callMethod ?
-                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                    };
-                    if (!f._fbq) f._fbq = n;
-                    n.push = n;
-                    n.loaded = !0;
-                    n.version = '2.0';
-                    n.queue = [];
-                    t = b.createElement(e);
-                    t.async = !0;
-                    t.src = v;
-                    s = b.getElementsByTagName(e)[0];
-                    s.parentNode.insertBefore(t, s)
-                  }(window, document, 'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-                  fbq('init', '171951266788320');
-                  fbq('track', 'PageView');
-                  //end FACEBOOK PIXEL///
-                  //GTM//
-                 
-                //GTM/
-              }
-              window.MarketingToolsLoaded=true
-            }
-        
-            window.addEventListener('scroll', __loadTawkTo);
-          </script>
+           function __loadTawkTo() {
+         if (! window.MarketingToolsLoaded) {
+        setTimeout(function () {
+          //FACEBOOK PIXEL///
+          ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+              n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+          }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '171951266788320');
+          fbq('track', 'PageView');
+          //end FACEBOOK PIXEL///
+          //GTM//
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+              'gtm.start': new Date().getTime(),
+              event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-MXG8KTL');
+        }, 100);
+
+
+        (function(a,s,y,n,c,h,i,d,e) {
+          s.className+=' '+y;h.start=1*new Date;
+         h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+          })(window,document.documentElement,'async-hide','dataLayer',4000,
+        {'GTM-T5NQ52B':true});
+        //GTM/
+      }
+      window.MarketingToolsLoaded=true
+    }
+
+    window.addEventListener('scroll', __loadTawkTo);
+  </script>
 
           </body>
 </html>
